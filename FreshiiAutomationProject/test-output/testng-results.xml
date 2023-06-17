@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-05T06:31:38 IST" name="Freshii Test Automation" finished-at="2023-06-05T06:32:17 IST" duration-ms="39066">
+    <groups>
+    </groups>
+    <test started-at="2023-06-05T06:31:38 IST" name="Freshii Tests" finished-at="2023-06-05T06:32:17 IST" duration-ms="39066">
+      <class name="com.qa.freshii.testcases.SignUpFunctionality">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.freshii.testcases.SignUpFunctionality@55183b20]" started-at="2023-06-05T06:31:38 IST" name="setUp" finished-at="2023-06-05T06:31:52 IST" duration-ms="14391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="findStorePopUp()[pri:0, instance:com.qa.freshii.testcases.SignUpFunctionality@55183b20]" started-at="2023-06-05T06:31:52 IST" name="findStorePopUp" finished-at="2023-06-05T06:31:53 IST" duration-ms="262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findStorePopUp -->
+        <test-method signature="signUpToFreshii()[pri:1, instance:com.qa.freshii.testcases.SignUpFunctionality@55183b20]" started-at="2023-06-05T06:31:53 IST" name="signUpToFreshii" finished-at="2023-06-05T06:32:17 IST" duration-ms="24082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpToFreshii -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.freshii.testcases.SignUpFunctionality@55183b20]" started-at="2023-06-05T06:32:17 IST" name="tearDown" finished-at="2023-06-05T06:32:17 IST" duration-ms="254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.freshii.testcases.SignUpFunctionality -->
+    </test> <!-- Freshii Tests -->
+  </suite> <!-- Freshii Test Automation -->
+</testng-results>

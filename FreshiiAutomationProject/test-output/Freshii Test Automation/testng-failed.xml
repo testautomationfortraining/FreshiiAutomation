@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Freshii Test Automation]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="Freshii Tests(failed)">
+    <classes>
+      <class name="com.qa.freshii.testcases.SignUpFunctionality">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="signUpToFreshii"/>
+        </methods>
+      </class> <!-- com.qa.freshii.testcases.SignUpFunctionality -->
+    </classes>
+  </test> <!-- Freshii Tests(failed) -->
+</suite> <!-- Failed suite [Freshii Test Automation] -->
