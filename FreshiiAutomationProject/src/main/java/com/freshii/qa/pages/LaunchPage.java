@@ -38,6 +38,13 @@ public class LaunchPage extends TestBase {
 	@FindBy(xpath="//span[text()='Next']")
 	WebElement nextBtn;
 	
+	@FindBy(xpath="//input[@class='VfPpkd-muHVFf-bMcfAe']")
+	WebElement showPassword;
+	
+	
+	
+	
+	
 	public LaunchPage() {
 		PageFactory.initElements(driver, this);
 	}
@@ -54,7 +61,7 @@ public class LaunchPage extends TestBase {
 		loginWithGoogleBtn.click();
 	}
 	
-	public void signInWithGoogleAccount(String email, String pwd) throws InterruptedException {
+	public OrderNowPage signInWithGoogleAccount(String email, String pwd) throws InterruptedException {
 		String mainWindow=driver.getWindowHandle();
 		Set<String> s1=driver.getWindowHandles();
 		Iterator<String> i1=s1.iterator();
@@ -66,12 +73,18 @@ public class LaunchPage extends TestBase {
 				driver.switchTo().window(childWindow);
 				emailTextBox.sendKeys(email);
 				nextBtn.click();
-				Thread.sleep(5000);
+				Thread.sleep(3000);
 				pwdTextBox.sendKeys(pwd);
+				showPassword.click();
 				nextBtn.click();
+				Thread.sleep(2000);
 				driver.close();
 			}
 		}
 		driver.switchTo().window(mainWindow);
+		driver.navigate().refresh();
+		Thread.sleep(2000);
+		loginWithGoogleBtn.click();
+		return new OrderNowPage();
 	}
-}
+	}

@@ -10,6 +10,7 @@
 	<test name="Freshii Tests">
 		<classes>
 			<class name="com.qa.freshii.testcases.SignUpFunctionality" />
+			<class name="com.qa.freshii.testcases.orderNowFunctionality" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -6,13 +6,13 @@
   </listeners>
   <test thread-count="5" name="Freshii Tests(failed)">
     <classes>
-      <class name="com.qa.freshii.testcases.SignUpFunctionality">
+      <class name="com.qa.freshii.testcases.orderNowFunctionality">
         <methods>
           <include name="tearDown"/>
+          <include name="orderNowFunctionalityValidation"/>
           <include name="setUp"/>
-          <include name="signUpToFreshii"/>
         </methods>
-      </class> <!-- com.qa.freshii.testcases.SignUpFunctionality -->
+      </class> <!-- com.qa.freshii.testcases.orderNowFunctionality -->
     </classes>
   </test> <!-- Freshii Tests(failed) -->
 </suite> <!-- Failed suite [Freshii Test Automation] -->

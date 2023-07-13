@@ -18,8 +18,8 @@ public class TestBase {
 		
 		prop=new Properties();
 		try {
-			FileInputStream ip=new FileInputStream("C:\\Users\\usrin\\eclipse-workspace\\FreshiiAutomationProject\\src\\main\\java\\com\\qa\\freshii\\"
-					+ "config\\config.properties");
+			FileInputStream ip=new FileInputStream("C:\\Users\\usrin\\git\\FreshiiAutomation\\FreshiiAutomationProject\\src\\main\\"
+					+ "java\\com\\qa\\freshii\\config\\config.properties");
 				prop.load(ip);
 			} catch (Exception e) {
 				e.printStackTrace();
